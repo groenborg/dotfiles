@@ -7,13 +7,8 @@
 brew "git"
 brew "stow"
 brew "tmux"
-brew "neovim"
-brew "fnm"            # Fast Node Manager
 brew "rust"
-brew "python"
 brew "stylua"         # Lua formatter
-cask "dotnet-sdk"     # .NET SDK (latest) for Roslyn LSP
-cask "dotnet-sdk@9"   # .NET SDK 9 (includes 9.0.100)
 
 # Modern CLI utilities
 brew "ripgrep"        # rg - fast grep alternative
