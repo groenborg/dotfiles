@@ -1,0 +1,10 @@
+# Custom git config
+
+[alias]
+	st = status
+	co = checkout
+    ada = add --all
+    br = branch
+[user]
+	name = Simon Grønborg
+	email = sig@secomea.com
