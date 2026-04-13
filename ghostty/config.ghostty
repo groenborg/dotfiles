@@ -1,0 +1,15 @@
+# Simons custom ghostty config
+# v0.0.1
+
+# Custom theme
+theme = dark:Atom,light:Atom
+
+# Window customization
+window-padding-x = 20
+window-padding-y = 16,4
+
+# Font customization
+font-family = "JetBrains Mono"
+font-size = 14
+cursor-style = bar
+

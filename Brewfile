@@ -4,7 +4,6 @@
 # Note: Fonts are now in homebrew/cask, no separate tap needed
 
 # Core CLI tools
-brew "git"
 brew "stow"
 brew "tmux"
 brew "rust"
@@ -15,11 +14,11 @@ brew "ripgrep"        # rg - fast grep alternative
 brew "fd"             # fd - fast find alternative
 brew "fzf"            # Fuzzy finder
 brew "bat"            # bat - cat with syntax highlighting
-brew "eza"            # eza - ls replacement
+# brew "eza"            # eza - ls replacement
 brew "zoxide"         # zoxide - smarter cd
-brew "jq"             # JSON processor
+# brew "jq"             # JSON processor
 brew "gh"             # GitHub CLI
-brew "tldr"           # Simplified man pages
+# brew "tldr"           # Simplified man pages
 brew "derailed/k9s/k9s"  # Kubernetes CLI manager
 brew "go-task/tap/go-task"  # Task runner
 
