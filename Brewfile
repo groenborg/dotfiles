@@ -7,7 +7,7 @@
 brew "stow"
 brew "tmux"
 brew "rust"
-brew "stylua"         # Lua formatter
+#brew "stylua"         # Lua formatter
 
 # Modern CLI utilities
 brew "ripgrep"        # rg - fast grep alternative
@@ -21,6 +21,7 @@ brew "gh"             # GitHub CLI
 # brew "tldr"           # Simplified man pages
 brew "derailed/k9s/k9s"  # Kubernetes CLI manager
 brew "go-task/tap/go-task"  # Task runner
+brew "lazygit"          # Git GUI
 
 # Fonts
 cask "font-hack-nerd-font"

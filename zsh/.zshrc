@@ -83,6 +83,20 @@ source $ZSH/oh-my-zsh.sh
 # - $ZSH_CUSTOM/macos.zsh
 # For a full list of active aliases, run `alias`.
 
+### Environment Variables
+
+
+
+### Custom Aliases ###
+# tmux
+alias t="tmux"
+
+# git
+alias got="git"
+alias gut="git"
+
+# Lazygit
+alias lg="lazygit"
 
 eval "$(zoxide init zsh)"
 
