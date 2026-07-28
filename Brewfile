@@ -24,9 +24,9 @@ brew "go-task/tap/go-task"  # Task runner
 brew "lazygit"          # Git GUI
 
 # Fonts
-cask "font-hack-nerd-font"
-cask "font-jetbrains-mono-nerd-font"
+#cask "font-hack-nerd-font"
+#cask "font-jetbrains-mono-nerd-font"
 
 # Applications
-cask "ghostty"
-cask "raycast"
+#cask "ghostty"
+# cask "raycast"

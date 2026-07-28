@@ -1,1 +1,6 @@
 .config/tmux/plugins/**
+
+# per-machine, never tracked
+*.local
+.zshrc.local
+.zprofile.local

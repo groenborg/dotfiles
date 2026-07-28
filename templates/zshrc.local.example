@@ -1,0 +1,15 @@
+# ~/.zshrc.local — per-machine config. NOT tracked in git.
+#
+# install.sh copies this template here if the file doesn't exist yet.
+# Put anything here that differs between computers, and point tool
+# installers that want to append to ~/.zshrc at this file instead.
+
+# Example: extra PATH entries that only exist on this machine
+# export PATH="$HOME/.antigravity/antigravity/bin:$PATH"
+# export PATH="$HOME/.antigravity-ide/antigravity-ide/bin:$PATH"
+
+# Example: machine-local env / secrets (prefer a separate untracked file)
+# export OPENAI_API_KEY="..."
+
+# Example: work-only aliases
+# alias vpn="..."
