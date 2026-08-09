@@ -4,6 +4,17 @@ set -euo pipefail
 echo "Starting workspace setup..."
 echo ""
 
+
+if ! command -v brew &> /dev/null; then
+    echo "Installing Homebrew..."
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    echo "✓ Homebrew installed"
+else
+    echo "✓ Homebrew already installed"
+fi
+
+echo ""
+
 # Install Bun if not already installed
 if ! command -v bun &> /dev/null; then
     echo "Installing Bun..."
