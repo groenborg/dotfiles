@@ -5,7 +5,7 @@
 theme = dark:Atom,light:Atom
 
 # Window customization
-window-padding-x = 20
+window-padding-x = 10
 window-padding-y = 16,4
 
 # Font customization
