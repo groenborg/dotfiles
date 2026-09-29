@@ -47,3 +47,10 @@ alias lg="lazygit"
 
 ### Machine-specific overrides (not in version control) ###
 [[ -f "$HOME/.zshrc.local" ]] && source "$HOME/.zshrc.local"
+export PATH="$HOME/.local/bin:$PATH"
+
+# Added by Antigravity IDE
+export PATH="/Users/simon/.antigravity-ide/antigravity-ide/bin:$PATH"
+
+# Unity CLI
+. "/Users/simon/.unity/env"

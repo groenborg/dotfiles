@@ -20,6 +20,7 @@ brew "jq"             # JSON processor
 brew "gh"             # GitHub CLI
 brew "tldr"           # Simplified man pages
 brew "lazygit"        # Git GUI
+brew "herdr"          # Terminal workspace manager for AI coding agents
 
 # Fonts
 #cask "font-hack-nerd-font"

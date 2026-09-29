@@ -1,0 +1,18 @@
+# Herdr configuration
+# Symlinked to ~/.config/herdr/config.toml by setup.sh.
+
+[theme]
+name = "rose-pine"
+
+[terminal]
+# Open new panes, tabs, and workspaces in the current pane's directory.
+new_cwd = "follow"
+
+[keys]
+# Match the prefix used in the tmux configuration.
+prefix = "ctrl+space"
+
+[ui]
+mouse_capture = true
+copy_on_select = true
+confirm_close = true
